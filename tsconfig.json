@@ -1,0 +1,16 @@
+{
+	"extends": "@sindresorhus/tsconfig/tsconfig.json",
+	"compilerOptions": {
+		"emitDecoratorMetadata": true,
+		"esModuleInterop": true,
+		"experimentalDecorators": true,
+		"lib": ["ES2021", "dom"],
+		"module": "esnext",
+		"noImplicitAny": false,
+		"outDir": "dist",
+		"sourceMap": true,
+		"target": "ES2021"
+	},
+	"include": ["source/**/**.ts"],
+	"exclude": ["dist", "**/*.test.ts"]
+}
